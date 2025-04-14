@@ -1,0 +1,11 @@
+.Star {
+    font-size: 2rem;
+    transition: box-shadow 0.3s ease;
+}
+
+.Star:focus {
+    outline: none;
+    /*remove default outline */
+    box-shadow: 0 0 15px 5px yellow;
+    /* 'glowing' effect */
+}
